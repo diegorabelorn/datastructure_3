@@ -3,7 +3,7 @@
 Este projeto visa a construção, análise e visualização de uma rede complexa (grafo direcionado) a partir de páginas da Wikipédia em português. Utilizamos o algoritmo de **Busca em Largura (BFS)** para o *crawling* e a biblioteca **NetworkX** para processamento e normalização dos dados. A visualização e a análise detalhada das métricas de centralidade e coesão foram realizadas utilizando o **Gephi**.
 
 #### Autores:
-- Diego Rordrigo Rabelo dos Santos
+- Diego Rodrigo Rabelo dos Santos
 - Leonardo Pessoa Cavalcanti
 - Lucas Marques dos Santos
 
