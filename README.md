@@ -64,7 +64,7 @@ Foi gerada uma figura (utilizando o filtro K-Core no Gephi) para analisar a coes
 
 A rede foi analisada sob a perspectiva de comunidades, utilizando o layout **Force Atlas 2** para melhor separação:
 
-* **Critério de comunidade:** A **Cor** dos vértices foi definida pela **Classe de Modularidade**, separando os clusters de páginas que têm alta densidade de links internos (comunidades temáticas). Foram encontradas 19 grupos, cada um identificado por uma cor no gráfico.
+* **Critério de comunidade:** A **Cor** dos vértices foi definida pela **Classe de Modularidade**, separando os clusters de páginas que têm alta densidade de links internos (comunidades temáticas). Foram encontrados 19 grupos, cada um identificado por uma cor no gráfico.
 * **Tamanho do vértice:** O **Tamanho** dos vértices foi definido pelo **Grau de Entrada (`In-Degree`)**, destacando a popularidade dos nós dentro de cada comunidade. Os resultados demonstram como os 5 tópicos iniciais se fundiram em comunidades maiores dentro da rede.
 
 ---
