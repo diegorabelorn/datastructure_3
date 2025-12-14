@@ -6,6 +6,9 @@ Este projeto visa a construção, análise e visualização de uma rede complexa
 - Diego Rordrigo Rabelo dos Santos
 - Leonardo Pessoa Cavalcanti
 - Lucas Marques dos Santos
+
+- #### Link para o vídeo:
+  
 ---
 
 ##  Metodologia de construção da rede
