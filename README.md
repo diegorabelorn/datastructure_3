@@ -89,7 +89,7 @@ O projeto depende das seguintes bibliotecas Python e software de análise:
 
 * Ajuste da heurística (Opcional): A variável link_limit (heurística de amostragem) está definida como 50. Se o tempo de execução for muito longo, você pode diminuí-la.
 
-* Execute o código. O tempo total de crawling (Nível 2) e limpeza é de aproximadamente [Tempo em Minutos] minutos.
+* Execute o código. O tempo total de crawling (Nível 2) e limpeza é de aproximadamente 38 minutos.
    
 2. **Importação no Gephi:** Abrir o Gephi e importar o arquivo **`cna.graphml`**.
 3. **Análise e visualização:** No Gephi, aplicar as métricas (Grau, Modularidade, PageRank, Closeness, Betweenness) e filtros (em particular o filtro K-Core e a coloração por Modularidade) conforme descrito nos resultados.
