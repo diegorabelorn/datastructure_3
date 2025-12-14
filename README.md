@@ -19,7 +19,7 @@ Este projeto visa a construção, análise e visualização de uma rede complexa
 * **Profundidade:** O *crawling* foi limitado a uma altura de **Nível 2** (`layer < 3`), garantindo uma exploração controlada.
 * **Linguagem:** O foco foi em links da Wikipédia em português.
 
-### 2. Heurística e estrutura de dados (Requisito 4)
+### 2. Heurística e estrutura de dados
 
 Para gerenciar a alta demanda computacional da exploração até o Nível 2 (crescimento exponencial), foi implementada uma heurística e utilizada a estrutura de dados mais eficiente, formalizando a abordagem da **Busca em Largura (BFS)**:
 
@@ -41,7 +41,7 @@ O grafo (NetworkX `DiGraph`) passou por etapas de limpeza essenciais antes da an
 
 A rede finalizada para análise no Gephi possui **16.412 nós** e **117.748 arestas** (após a normalização).
 
-### 1. Centralidade e Influência (Requisito 1)
+### 1. Centralidade e Influência
 
 Foram geradas quatro figuras (utilizando o layout **Force Atlas 2** com alto *scaling*) que destacam a hierarquia de influência na rede. O **tamanho** dos vértices foi definido pelo **Grau de Entrada (`In-Degree`)**.
 
@@ -52,7 +52,7 @@ Foram geradas quatro figuras (utilizando o layout **Force Atlas 2** com alto *sc
 | **Betweenness** | Cor $\propto$ Betweenness Centrality | A cor destacou as **pontes** (nós mediadores), que são cruciais para o fluxo de informação entre diferentes regiões da rede. |
 | **Eigenvector** | Cor $\propto$ PageRank | A cor destacou os nós de **"autoridade"**, que são referenciados por outros nós já influentes. |
 
-### 2. Coesão e núcleo da rede (Requisito 2)
+### 2. Coesão e núcleo da rede
 
 Foi gerada uma figura (utilizando o filtro K-Core no Gephi) para analisar a coesão estrutural, com o tamanho dos vértices proporcional ao *Degree*.
 
@@ -60,7 +60,7 @@ Foi gerada uma figura (utilizando o filtro K-Core no Gephi) para analisar a coes
 * **K-Shell:** O **K-Shell (camada envolvente)** foi definido em $K_{Shell} = 68$ (ou valor adjacente), representando a primeira camada que se liga ao núcleo.
 * **Visualização:** A figura revela que o K-Core 71 está dividido em **dois Componentes Gigantes** (mostrados em vermelho e azul nas extremidades da figura), o que sugere a existência de dois domínios de informação igualmente robustos, mas sem links diretos fortes entre si.
 
-### 3. Análise de comunidades (Requisito 3)
+### 3. Análise de comunidades
 
 A rede foi analisada sob a perspectiva de comunidades, utilizando o layout **Force Atlas 2** para melhor separação:
 
