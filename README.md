@@ -7,6 +7,8 @@ Este projeto visa a construção, análise e visualização de uma rede complexa
 - Leonardo Pessoa Cavalcanti
 - Lucas Marques dos Santos
 
+#### Link para o vídeo (Youtube:
+https://www.youtube.com/watch?v=sLV3YGu8Bpc
   
 ---
 
